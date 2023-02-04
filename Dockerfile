@@ -11,4 +11,4 @@ COPY . .
 RUN pip install --no-cache-dir pyzmq
 
 # Run the server application
-CMD ["python", "server.py"]
+CMD ["python", "server_prices.py"]
